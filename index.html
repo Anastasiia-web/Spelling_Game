@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spelling Game</title>
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+<body>
+    <div class="instractions">
+        <h2> Check Your Spelling Game) </h2>
+        <h3> Practice 50 common the hardest-to-spell words in the English language </h3>
+        <span> <u> Choose your level to start </u> </span>
+        <h4>
+            <span id="first-level"> <u> 1 level:</u> Unlimited time for typing. </span> <br />
+            <span id="second-level"> <u> 2 level:</u> You'll see the word on the screen for 5 sec. To type it you don't have a time limit. </span> <br />
+            <span id="third-level"> <u> 3 level:</u> Every 5 sec you'll be given a new word to type. </span>
+        </h4>
+    </div> 
+    <div class="main">
+        <div id="word-for-spelling"></div>
+        <div class="btns">
+            <input type="text" id="user-input">
+            <button id="start">WORD</button>
+        </div>
+        <div id="result"></div>
+        <div id="score">Score: 0</div>
+    </div>
+    <script src="app/main.js"></script>
+</body>
+</html>
